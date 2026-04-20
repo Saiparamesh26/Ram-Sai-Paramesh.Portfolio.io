@@ -4,8 +4,10 @@
 📧 mrsparamesh@gmail.com  
 📞 +91 8074191758  
 
-🔗 **LinkedIn:** https://www.linkedin.com/in/m-ram-sai-paramesh-763b26335  
-💻 **GitHub:** https://github.com/your-username  
+## 🌐 Connect with Me
+
+🔗 **LinkedIn:** [m-ram-sai-paramesh](https://www.linkedin.com/in/m-ram-sai-paramesh-763b26335/)  
+💻 **GitHub:** [Saiparamesh26](https://github.com/Saiparamesh26)
 
 ---
 
