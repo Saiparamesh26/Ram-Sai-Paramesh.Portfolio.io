@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ram Sai Paramesh | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+
+body {
+  background: linear-gradient(135deg,#020617,#0f172a);
+  color:white;
+  scroll-behavior:smooth;
+}
+
+/* NAV */
+nav {
+  position:fixed;
+  width:100%;
+  padding:15px;
+  background:rgba(0,0,0,0.6);
+  display:flex;
+  justify-content:center;
+}
+
+nav a {
+  color:white;
+  margin:0 15px;
+  text-decoration:none;
+}
+
+nav a:hover {color:#38bdf8;}
+
+/* HERO */
+header {
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+header h1 {color:#38bdf8;font-size:3rem;}
+
+.typing {
+  font-size: 20px;
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid white;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+}
+
+@keyframes typing {to {width:320px;}}
+@keyframes blink {50%{border-color:transparent;}}
+
+/* SECTIONS */
+section {padding:80px 20px;text-align:center;}
+
+h2 {color:#38bdf8;margin-bottom:20px;}
+
+/* CARDS */
+.container {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.card {
+  background:rgba(255,255,255,0.05);
+  padding:20px;
+  margin:15px;
+  border-radius:15px;
+  width:260px;
+  transition:0.4s;
+}
+
+.card:hover {
+  transform:translateY(-10px);
+  box-shadow:0 0 20px #38bdf8;
+}
+
+footer {padding:20px;text-align:center;opacity:0.6;}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#education">Education</a>
+<a href="#certifications">Certificates</a>
+<a href="#activities">Activities</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<header>
+<h1>Manipatruni Ram Sai Paramesh</h1>
+<p class="typing">|ECE Engineer | Passionate Developer | VLSI & Embedded </p>
+</header>
+
+<section id="about">
+<h2>About Me</h2>
+<p>
+Enthusiastic Electronics and Communication Engineering student with strong skills in software development, embedded systems, and VLSI design. Passionate about building innovative solutions and continuously improving technical skills.
+</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="container">
+<div class="card"><b>Programming</b><br>C, Java, Python, SQL</div>
+<div class="card"><b>Web</b><br>HTML, CSS, JavaScript</div>
+<div class="card"><b>Hardware</b><br>Verilog HDL, Arduino, MATLAB</div>
+<div class="card"><b>Tools</b><br>VMware, Tinkercad, MPLAB, Vivado</div>
+<div class="card"><b>Simulation</b><br>QuestaSim, QCA Designer</div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="container">
+
+<div class="card">
+<h3>Vending Machine Controller</h3>
+<p>
+Developed a Finite State Machine (FSM)-based vending machine using Verilog HDL. 
+Accepts ₹5 and ₹10 coins and dispenses a product at ₹15.
+</p>
+</div>
+
+<div class="card">
+<h3>Automatic Street Light System</h3>
+<p>
+Designed an LDR-based automatic lighting system using Arduino. 
+Lights turn ON/OFF based on ambient light intensity.
+</p>
+</div>
+
+<div class="card">
+<h3>Battery Management System</h3>
+<p>
+Simulated a BMS using MATLAB/Simulink to monitor battery health, voltage, temperature, and safety conditions.
+</p>
+</div>
+
+<div class="card">
+<h3>Hamming Encoder & Decoder</h3>
+<p>
+Designed QCA-based encoder-decoder for error detection and correction with optimized energy usage.
+</p>
+</div>
+
+</div>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<div class="container">
+<div class="card">B.Tech (ECE)<br>Raghu Engineering College<br>2026 | 78.7%</div>
+<div class="card">Intermediate<br>Sri Gayatri College<br>2022 | 58.9%</div>
+<div class="card">SSC<br>Lucky Amar School<br>2020 | 98.3%</div>
+</div>
+</section>
+
+<section id="certifications">
+<h2>Certifications</h2>
+<div class="container">
+
+<a href="aws.pdf" target="_blank"><div class="card">AWS Internship – Internship Studio</div></a>
+<a href="sql.pdf" target="_blank"><div class="card">SQL – Skill Rack</div></a>
+<a href="uiux.pdf" target="_blank"><div class="card">UI/UX – Tamizan Skills</div></a>
+<a href="java.pdf" target="_blank"><div class="card">Java – Oracle</div></a>
+<a href="cloud.pdf" target="_blank"><div class="card">Cloud Security – Infosys</div></a>
+<a href="software.pdf" target="_blank"><div class="card">Software Dev – Yuga Yatra</div></a>
+<a href="iot.pdf" target="_blank"><div class="card">IoT – Cisco</div></a>
+<a href="pcb.pdf" target="_blank"><div class="card">PCB Design – Udemy</div></a>
+<a href="vlsi.pdf" target="_blank"><div class="card">VLSI – Intersveda</div></a>
+<a href="embedded.pdf" target="_blank"><div class="card">Embedded – Emertxe</div></a>
+<a href="ev.pdf" target="_blank"><div class="card">EV Technology</div></a>
+
+</div>
+</section>
+
+<section id="activities">
+<h2>Activities & Languages</h2>
+<div class="container">
+<div class="card">Web Development Learning</div>
+<div class="card">Image Designing</div>
+<div class="card">Social Service</div>
+<div class="card">Languages: English, Telugu</div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: mrsparamesh@gmail.com</p>
+<p>Phone: +91 8074191758</p>
+<p>Location: Visakhapatnam</p>
+</section>
+
+<div class="container">
+
+<a href="https://github.com/Saiparamesh26" target="_blank">
+  <div class="card">GitHub Profile</div>
+</a>
+
+<a href="https://www.linkedin.com/in/m-ram-sai-paramesh-763b26335" target="_blank">
+  <div class="card">LinkedIn Profile</div>
+</a>
+
+</div>
+
+<footer>
+© 2026 Ram Sai Paramesh
+</footer>
+
+</body>
+</html>
