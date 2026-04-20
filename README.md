@@ -1,4 +1,4 @@
-Ram Sai Paramesh
+Manipatruni Ram Sai Paramesh
 
 📍 Gajuwaka, Visakhapatnam
 📧 mrsparamesh@gmail.com
