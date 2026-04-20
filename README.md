@@ -1,3 +1,14 @@
+# 👨‍💻 Ram Sai Paramesh
+
+📍 Gajuwaka, Visakhapatnam  
+📧 mrsparamesh@gmail.com  
+📞 +91 8074191758  
+
+🔗 **LinkedIn:** https://www.linkedin.com/in/m-ram-sai-paramesh-763b26335  
+💻 **GitHub:** https://github.com/your-username  
+
+---
+
 ## 🧑‍🎓 About Me
 
 Motivated and enthusiastic Electronics and Communication Engineering student with a strong interest in software and hardware development.  
